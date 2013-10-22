@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Svitlana-pc" name="Project.Maven.AppTest" tests="1" failures="0" timestamp="21 Oct 2013 20:52:46 GMT" time="0.023" errors="0">
+  <testcase name="testApp on instance testApp(Project.Maven.AppTest)" time="0.0" classname="Project.Maven.AppTest"/>
+</testsuite>
