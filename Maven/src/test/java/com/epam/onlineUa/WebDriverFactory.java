@@ -11,7 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.opera.core.systems.OperaDriver;
 
 public class WebDriverFactory {
 
@@ -110,8 +109,7 @@ public class WebDriverFactory {
       return new InternetExplorerDriver(capabilities);
     if (browserType.equals("chrome"))
       return new ChromeDriver(capabilities);
-    if (browserType.equals("opera"))
-      return new OperaDriver(capabilities);
+
     throw new Error("Unrecognized browser type: " + browserType);
   }
 

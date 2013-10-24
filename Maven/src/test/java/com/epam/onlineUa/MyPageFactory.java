@@ -15,7 +15,7 @@ public class MyPageFactory {
 	public static <T extends Page> T getPage(WebDriver driver,
 			Class<T> pageClass) {
 		T page = instantiatePage(driver, pageClass);
-		PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10),
+		PageFactory.initElements(new AjaxElementLocatorFactory(driver, 23),
 				page);
 		page.driver = driver;
 		if (!page.isOnThisPage()) {

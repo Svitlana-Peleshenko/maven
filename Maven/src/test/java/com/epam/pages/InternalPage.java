@@ -8,11 +8,12 @@ import com.epam.onlineUa.MyPageFactory;
 
 public class InternalPage extends Page {
 
-	@FindBy(xpath = ".//*[@id='head_up']/td[9]/a")
+	@FindBy(css = "[href$='logout.php']")
 	public static WebElement logOutBtn;
 
-	public void logOut() {
-		waiter().until(ExpectedConditions.visibilityOf(logOutBtn)).click();
+	public void logOut() throws InterruptedException {
+		logOutBtn.click();
+		Thread.sleep(2000);
 	}
 
 	@Override

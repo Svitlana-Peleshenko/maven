@@ -9,13 +9,15 @@
 
   <name>Maven</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
-  
+    <dependency>
+   <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                  </dependency>
   <dependency>
 <groupId>
 com.opera

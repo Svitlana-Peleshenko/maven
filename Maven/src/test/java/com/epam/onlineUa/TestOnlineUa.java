@@ -25,6 +25,7 @@ public class TestOnlineUa extends BasePage {
 		List<Letter> lettersBefore = mailPage.getLetter();
 
 		mailPage.goToNewMail().sendMail(letter).checkMail();
+		
 
 		List<Letter> lettersAfter = mailPage.getLetter();
 

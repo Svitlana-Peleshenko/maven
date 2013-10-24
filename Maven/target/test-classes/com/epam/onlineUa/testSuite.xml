@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Self mail sending">
-  <test name="IUaMail">
-    <classes>
-       <class name="com.epam.onlineUa.TestOnlineUa"/>
-    </classes>
-  </test>
-</suite>

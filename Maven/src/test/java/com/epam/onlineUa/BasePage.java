@@ -25,7 +25,7 @@ public class BasePage {
 	}
 	
 	@AfterClass()
-	public void closeBrowser() {
+	public void closeBrowser() throws InterruptedException {
 		MyPageFactory.getPage(driver, InternalPage.class).logOut();
 		driver.quit();
 	}

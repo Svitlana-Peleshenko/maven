@@ -8,16 +8,23 @@ import com.epam.onlineUa.MyPageFactory;
 
 public class FirstPage extends Page {
 
-	@FindBy(xpath = "html/body/div[1]/div[3]/div[2]/div[2]")
-	public WebElement loginForm;
-	@FindBy(id = "username")
-	public WebElement userNameField;
-	@FindBy(id = "userpswd")
-	public WebElement userPasswordField;
-	@FindBy(xpath = ".//div[@class='mail-enter']//input[@type='submit']")
-	public WebElement loginButton;
-	@FindBy(css = "[src^='http://secure.online.ua/']")
-	public WebElement loginFrame;
+	@FindBy(linkText = "Войти")
+	public WebElement logInButton;
+
+	@FindBy(xpath = ".//*[@id='head_up']/td[7]/a")
+	public WebElement reg;
+
+	@FindBy(id = "provider_iframe1")
+	public WebElement logInFrame;
+
+	@FindBy(id = "login")
+	public WebElement logInField;
+
+	@FindBy(id = "password")
+	public WebElement passwordField;
+
+	@FindBy(xpath = ".//*[@id='loginForm']/div[3]/div[1]/div[3]/a")
+	public WebElement loginButtonInFrame;
 	@FindBy(xpath = ".//*[@id='head_up']/td[9]/a")
 	public static WebElement logOutBtn;
 
@@ -29,12 +36,16 @@ public class FirstPage extends Page {
 
 	public MainPage doLogin(String login, String password) {
 
-		driver.switchTo().frame(loginFrame);
-		userNameField.clear();
-		userNameField.sendKeys(login);
-		userPasswordField.clear();
-		userPasswordField.sendKeys(password);
-		loginButton.click();
+		waiter().until(ExpectedConditions.visibilityOf(logInButton)).click();
+		;
+		driver.switchTo().frame(logInFrame);
+		waiter().until(ExpectedConditions.visibilityOf(logInField)).sendKeys(
+				login);
+		waiter().until(ExpectedConditions.visibilityOf(passwordField))
+				.sendKeys(password);
+		waiter().until(ExpectedConditions.visibilityOf(loginButtonInFrame))
+				.click();
+	
 		return MyPageFactory.getPage(driver, MainPage.class);
 
 	}
