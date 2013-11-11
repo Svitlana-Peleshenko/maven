@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Self mail sending]">
+  <listeners>
+    <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
+  </listeners>
+  <test name="TestCompareSorting(failed)">
     <classes>
-      <class name="com.epam.tests.TestCheckPriceFilter">
+      <class name="com.epam.tests.TestCompareSorting">
         <methods>
-          <include name="CheckPriceFilter" invocation-numbers="0"/>
+          <include name="CompareTitles" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="setUpMethod"/>
+          <include name="tearDown"/>
+          <include name="ComparePrices" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
+      </class> <!-- com.epam.tests.TestCompareSorting -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestCompareSorting(failed) -->
+</suite> <!-- Failed suite [Self mail sending] -->

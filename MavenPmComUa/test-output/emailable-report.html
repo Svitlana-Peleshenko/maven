@@ -1,2 +1,97 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Self mail sending</th></tr><tr><td><a href="#t0">TestCompareProductInformation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">47 908</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Self mail sending</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestCompareProductInformation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.epam.tests.TestCompareProductInformation</td><td><a href="#m0">CompareProductInformation</a></td><td rowspan="1">1384165665618</td><td rowspan="1">38251</td></tr></tbody></table><h2>TestCompareProductInformation</h2><h3 id="m0">com.epam.tests.TestCompareProductInformation#CompareProductInformation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Вентиляторы</td><td>3.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Self mail sending</th></tr><tr><td><a href="#t0">TestCompareSorting</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">19 552</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Self mail sending</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestCompareSorting &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.epam.tests.TestCompareSorting</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1384175733352</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestCompareSorting &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.epam.tests.TestCompareSorting</td><td><a href="#m1">ComparePrices</a></td><td rowspan="1">1384175722548</td><td rowspan="1">9327</td></tr><tr class="failedeven"><td><a href="#m2">CompareTitles</a></td><td rowspan="1">1384175732197</td><td rowspan="1">1057</td></tr></tbody></table><h2>TestCompareSorting</h2><h3 id="m0">com.epam.tests.TestCompareSorting#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423)
+	at com.epam.tests.BaseTest.tearDown(BaseTest.java:38)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 31 more
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.epam.tests.TestCompareSorting#ComparePrices</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Вентиляторы</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;br /&gt;&lt;a href=&apos;D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_ComparePrices_2013-11-11_15-15-31.png&apos;&gt;&lt;img src=&apos;D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_ComparePrices_2013-11-11_15-15-31.png&apos; hight=&apos;100&apos; width=&apos;100&apos; /&gt;&lt;/a&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 402 milliseconds
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Session ID: d16a193a-1f6d-4c58-9f74-e26032b67548
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at com.epam.helpers.GoToPageHelper.GoToPages(GoToPageHelper.java:14)
+	at com.epam.tests.TestCompareSorting.ComparePrices(TestCompareSorting.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10890)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7750)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7896)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7843)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10687)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1935)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2261)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1168)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1616)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1464)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1333)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.epam.tests.TestCompareSorting#CompareTitles</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Вентиляторы</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;br /&gt;&lt;a href=&apos;D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_CompareTitles_2013-11-11_15-15-33.png&apos;&gt;&lt;img src=&apos;D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_CompareTitles_2013-11-11_15-15-33.png&apos; hight=&apos;100&apos; width=&apos;100&apos; /&gt;&lt;/a&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.epam.tests.BaseTest.openUrl(BaseTest.java:43)
+	at com.epam.tests.TestCompareSorting.CompareTitles(TestCompareSorting.java:49)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 27 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 37 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
