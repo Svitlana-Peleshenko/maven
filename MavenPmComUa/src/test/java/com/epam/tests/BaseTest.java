@@ -24,8 +24,9 @@ public class BaseTest {
 
 	@BeforeTest
 	public void setUp() throws Exception {
-		
-		driver = WebDriverFactory.getDriver(DesiredCapabilities.firefox());
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setBrowserName(System.getProperty("webdriver.browser", "firefox"));
+		driver = WebDriverFactory.getDriver(cap);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 	}

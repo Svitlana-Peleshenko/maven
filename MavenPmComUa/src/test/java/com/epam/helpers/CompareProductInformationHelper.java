@@ -45,7 +45,6 @@ public class CompareProductInformationHelper {
 			Map<String, String> informationAboutProduct, int numElement,Header compareLine) {
 		compareLine.goToCompareTable();
 	    for(String title: informationAboutProduct.keySet()){
-	    	System.out.println(title);
 			for (int k = 0; k < table.getCompareRows().size(); k++) {
 				String titleFromComTable = table.getCompareRows().get(k)
 						.findElement(By.xpath(".//td[1]")).getText();
