@@ -20,10 +20,9 @@ public class CompareCharacteristicsHelper {
 			Double counts) {
 
 		int count = counts.intValue();
-		/*for (int i = 0; i < count; i++) {
+		for (int i = 0; i < count; i++) {
 			catalog.AddToCompare().get(i).click();
-		}*/
-		
+		}
 		// Click "compare"
 		catalog.getCompareButtons().get(count).click();
 
