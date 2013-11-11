@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Self mail sending" duration-ms="47908" started-at="2013-11-11T10:27:36Z" finished-at="2013-11-11T10:28:24Z">
+  <suite name="Default suite" duration-ms="58378" started-at="2013-11-11T12:31:05Z" finished-at="2013-11-11T12:32:03Z">
     <groups>
     </groups>
-    <test name="TestCompareProductInformation" duration-ms="47908" started-at="2013-11-11T10:27:36Z" finished-at="2013-11-11T10:28:24Z">
-      <class name="com.epam.tests.TestCompareProductInformation">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCompareProductInformation@956f6b]" name="setUp" is-config="true" duration-ms="8955" started-at="2013-11-11T12:27:36Z" finished-at="2013-11-11T12:27:45Z">
+    <test name="Default test" duration-ms="58378" started-at="2013-11-11T12:31:05Z" finished-at="2013-11-11T12:32:03Z">
+      <class name="com.epam.tests.TestCompareCharacteristics">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="setUp" is-config="true" duration-ms="9696" started-at="2013-11-11T14:31:05Z" finished-at="2013-11-11T14:31:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareProductInformation@956f6b]" name="setUpMethod" is-config="true" duration-ms="33" started-at="2013-11-11T12:27:45Z" finished-at="2013-11-11T12:27:45Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="setUpMethod" is-config="true" duration-ms="28" started-at="2013-11-11T14:31:15Z" finished-at="2013-11-11T14:31:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="CompareProductInformation(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareProductInformation@956f6b]" name="CompareProductInformation" duration-ms="38251" started-at="2013-11-11T12:27:45Z" data-provider="baseDataProvider" finished-at="2013-11-11T12:28:23Z">
+        <test-method status="PASS" signature="CompareProductInformation(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="CompareProductInformation" duration-ms="39695" started-at="2013-11-11T14:31:15Z" data-provider="baseDataProvider" finished-at="2013-11-11T14:31:55Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +31,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareProductInformation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCompareProductInformation@956f6b]" name="tearDown" is-config="true" duration-ms="422" started-at="2013-11-11T12:28:23Z" finished-at="2013-11-11T12:28:24Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="setUpMethod" is-config="true" duration-ms="12" started-at="2013-11-11T14:31:55Z" finished-at="2013-11-11T14:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckEquality(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="CheckEquality" duration-ms="8586" started-at="2013-11-11T14:31:55Z" data-provider="baseDataProvider" depends-on-methods="com.epam.tests.TestCompareCharacteristics.CompareProductInformation" finished-at="2013-11-11T14:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вентиляторы]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEquality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCompareCharacteristics@1f62649]" name="tearDown" is-config="true" duration-ms="267" started-at="2013-11-11T14:32:03Z" finished-at="2013-11-11T14:32:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.tests.TestCompareProductInformation -->
-    </test> <!-- TestCompareProductInformation -->
-  </suite> <!-- Self mail sending -->
+      </class> <!-- com.epam.tests.TestCompareCharacteristics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
