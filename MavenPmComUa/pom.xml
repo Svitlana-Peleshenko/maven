@@ -28,7 +28,7 @@
                                 <version>2.16</version>
                                 <configuration>
                                         <suiteXmlFiles>
-                                                <suiteXmlFile>SELECT_TEST</suiteXmlFile>
+                                                <suiteXmlFile>${SELECT_TEST}</suiteXmlFile>
                                         </suiteXmlFiles>
                                         <properties>
                                                 <property>
