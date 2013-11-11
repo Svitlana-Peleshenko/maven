@@ -18,14 +18,15 @@ public class CompareCharacteristicsHelper {
 	
 	public static void CheckEquality(Catalog catalog, ComparativeTable table,
 			Double counts) {
-
+		
+		
 		int count = counts.intValue();
-		for (int i = 0; i < count; i++) {
-			catalog.AddToCompare().get(i).click();
-		}
+//		for (int i = 0; i < count; i++) {
+//			catalog.AddToCompare().get(i).click();
+//		}
 		// Click "compare"
 		catalog.getCompareButtons().get(count).click();
-
+		
 		for (int i = 0; i < table.getCompareRows().size(); i++) {
 			WebElement row = table.getCompareRows().get(i);
 			String cssClass = row.getAttribute("class");

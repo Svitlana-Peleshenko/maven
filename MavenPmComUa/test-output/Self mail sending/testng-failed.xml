@@ -1,66 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Self mail sending]">
-  <test name="TestCompareProductInformation(failed)">
-    <classes>
-      <class name="com.epam.tests.TestCompareSorting">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareSorting -->
-      <class name="com.epam.tests.TestCompareCharacteristics">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareCharacteristics -->
-      <class name="com.epam.tests.TestCompareProductInformation">
-        <methods>
-          <include name="CompareProductInformation"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareProductInformation -->
-    </classes>
-  </test> <!-- TestCompareProductInformation(failed) -->
-  <test name="TestCompareSorting(failed)">
-    <classes>
-      <class name="com.epam.tests.TestCompareSorting">
-        <methods>
-          <include name="CompareTitles"/>
-          <include name="setUp"/>
-          <include name="ComparePrices"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareSorting -->
-      <class name="com.epam.tests.TestCompareCharacteristics">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareCharacteristics -->
-      <class name="com.epam.tests.TestCompareProductInformation">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareProductInformation -->
-    </classes>
-  </test> <!-- TestCompareSorting(failed) -->
+  <listeners>
+    <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
+  </listeners>
   <test name="TestCompareCharacteristics(failed)">
     <classes>
-      <class name="com.epam.tests.TestCompareSorting">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareSorting -->
       <class name="com.epam.tests.TestCompareCharacteristics">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="CheckEquality"/>
+          <include name="CheckEquality" invocation-numbers="0"/>
+          <include name="setUpMethod"/>
         </methods>
       </class> <!-- com.epam.tests.TestCompareCharacteristics -->
       <class name="com.epam.tests.TestCompareProductInformation">
         <methods>
           <include name="setUp"/>
+          <include name="setUpMethod"/>
         </methods>
       </class> <!-- com.epam.tests.TestCompareProductInformation -->
     </classes>
