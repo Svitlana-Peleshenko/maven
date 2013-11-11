@@ -5,18 +5,18 @@
                 <listener class-name="com.epam.helpers.ScreeenshotsForReporting" />
         </listeners>
 
- <test name="TestCompareProductInformation" enabled="false"> 
+ <test name="TestCompareProductInformation" enabled="true"> 
   <classes>
    <class name="com.epam.tests.TestCompareProductInformation"></class>
   </classes>
  </test>
- <test name="TestCompareSorting" enabled="false"> 
+ <test name="TestCompareSorting" enabled="true"> 
   <classes>
     <class name="com.epam.tests.TestCompareSorting"></class>
   </classes>
  </test>
  
- <test name="TestCompareCharacteristics" enabled="false"> 
+ <test name="TestCompareCharacteristics" enabled="true"> 
   <classes>
    <class name="com.epam.tests.TestCompareCharacteristics"></class>
   </classes>
@@ -28,19 +28,19 @@
   </classes>
  </test>
  
- <test name="TestCheckProducerFilter" enabled="false"> 
+ <test name="TestCheckProducerFilter" enabled="true"> 
   <classes>
   <class name="com.epam.tests.TestCheckProducerFilter"></class>
   </classes>
  </test>
  
- <test name="TestCheckPriceFilter" enabled="false"> 
+ <test name="TestCheckPriceFilter" enabled="true"> 
   <classes>
      <class name="com.epam.tests.TestCheckPriceFilter"></class>
   </classes>
  </test>
  
- <test name="TestCheckFunctionsFilter" enabled="false"> 
+ <test name="TestCheckFunctionsFilter" enabled="true"> 
   <classes>
  <class name="com.epam.tests.TestCheckFunctionsFilter"></class>
   </classes>
