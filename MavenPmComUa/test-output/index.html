@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Self_mail_sending">
-              <span class="suite-name border-passed">Self mail sending</span>
+              <span class="suite-name border-failed">Self mail sending</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Self_mail_sending">
-                    <span>D:\EclipseWorkSpace\MavenPmComUa\TestCompareProductInformation.xml</span>
+                    <span>D:\EclipseWorkSpace\MavenPmComUa\testSuites\TestCompareSorting.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Self_mail_sending" class="hide-methods passed suite-Self_mail_sending"> (hide)</a> <!-- hide-methods passed suite-Self_mail_sending -->
-                      <a href="#" panel-name="suite-Self_mail_sending" class="show-methods passed suite-Self_mail_sending"> (show)</a> <!-- show-methods passed suite-Self_mail_sending -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Self_mail_sending" class="hide-methods failed suite-Self_mail_sending"> (hide)</a> <!-- hide-methods failed suite-Self_mail_sending -->
+                      <a href="#" panel-name="suite-Self_mail_sending" class="show-methods failed suite-Self_mail_sending"> (show)</a> <!-- show-methods failed suite-Self_mail_sending -->
                     </span>
-                    <div class="method-list-content passed suite-Self_mail_sending">
+                    <div class="method-list-content failed suite-Self_mail_sending">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Self_mail_sending" title="com.epam.tests.TestCompareProductInformation" hash-for-method="CompareProductInformation(Вентиляторы, 3.0)">CompareProductInformation(Вентиляторы, 3.0)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Self_mail_sending" title="com.epam.tests.TestCompareSorting" hash-for-method="ComparePrices(Вентиляторы)">ComparePrices(Вентиляторы)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Self_mail_sending -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Self_mail_sending" title="com.epam.tests.TestCompareSorting" hash-for-method="CompareTitles(Вентиляторы)">CompareTitles(Вентиляторы)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Self_mail_sending -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,26 +121,100 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Self_mail_sending" class="panel Self_mail_sending">
-          <div class="suite-Self_mail_sending-class-passed">
+          <div class="suite-Self_mail_sending-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.epam.tests.TestCompareProductInformation</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.tests.TestCompareSorting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CompareProductInformation(Вентиляторы, 3.0)">
-                  </a> <!-- CompareProductInformation(Вентиляторы, 3.0) -->
-                  <span class="method-name">CompareProductInformation</span>
-                  <span class="parameters">(Вентиляторы, 3.0)</span>
+                  <a name="ComparePrices(Вентиляторы)">
+                  </a> <!-- ComparePrices(Вентиляторы) -->
+                  <span class="method-name">ComparePrices</span>
+                  <span class="parameters">(Вентиляторы)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 402 milliseconds
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Session ID: d16a193a-1f6d-4c58-9f74-e26032b67548
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at com.epam.helpers.GoToPageHelper.GoToPages(GoToPageHelper.java:14)
+	at com.epam.tests.TestCompareSorting.ComparePrices(TestCompareSorting.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10890)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7750)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7896)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7843)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10687)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1935)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2261)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1168)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1616)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1464)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/SVITLA~1.COM/AppData/Local/Temp/anonymous6486672934146032888webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1333)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompareTitles(Вентиляторы)">
+                  </a> <!-- CompareTitles(Вентиляторы) -->
+                  <span class="method-name">CompareTitles</span>
+                  <span class="parameters">(Вентиляторы)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.35.0&apos;, revision: &apos;c916b9d&apos;, time: &apos;2013-08-12 15:42:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.epam.tests.BaseTest.openUrl(BaseTest.java:43)
+	at com.epam.tests.TestCompareSorting.CompareTitles(TestCompareSorting.java:49)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 27 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 37 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Self_mail_sending-class-passed -->
+          </div> <!-- suite-Self_mail_sending-class-failed -->
         </div> <!-- panel Self_mail_sending -->
         <div panel-name="test-xml-Self_mail_sending" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\EclipseWorkSpace\MavenPmComUa\TestCompareProductInformation.xml</span>
+            <span class="header-content">D:\EclipseWorkSpace\MavenPmComUa\testSuites\TestCompareSorting.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +224,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.epam.helpers.ScreenshotsForReporting&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;TestCompareProductInformation&quot;&gt;
+  &lt;test name=&quot;TestCompareSorting&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.epam.tests.TestCompareProductInformation&quot;/&gt;
+      &lt;class name=&quot;com.epam.tests.TestCompareSorting&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestCompareProductInformation --&gt;
+  &lt;/test&gt; &lt;!-- TestCompareSorting --&gt;
 &lt;/suite&gt; &lt;!-- Self mail sending --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +240,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestCompareProductInformation (1 class)</span>
+                <span class="test-name">TestCompareSorting (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,16 +266,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CompareProductInformation')
-data.setCell(0, 2, 'com.epam.tests.TestCompareProductInformation')
-data.setCell(0, 3, 38251);
+data.setCell(0, 1, 'ComparePrices')
+data.setCell(0, 2, 'com.epam.tests.TestCompareSorting')
+data.setCell(0, 3, 9327);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CompareTitles')
+data.setCell(1, 2, 'com.epam.tests.TestCompareSorting')
+data.setCell(1, 3, 1057);
 window.suiteTableData['Self_mail_sending']= { tableData: data, tableDiv: 'times-div-Self_mail_sending'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Self_mail_sending">
               </div> <!-- times-div-Self_mail_sending -->
             </div> <!-- times-div -->
@@ -207,6 +290,18 @@ return data;
             <span class="header-content">Reporter output for Self mail sending</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ComparePrices(Вентиляторы)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br /><a href='D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_ComparePrices_2013-11-11_15-15-31.png'><img src='D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_ComparePrices_2013-11-11_15-15-31.png' hight='100' width='100' /></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CompareTitles(Вентиляторы)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br /><a href='D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_CompareTitles_2013-11-11_15-15-33.png'><img src='D:\EclipseWorkSpace\MavenPmComUa\test-output\Self mail sending\FailTestScreenshot_CompareTitles_2013-11-11_15-15-33.png' hight='100' width='100' /></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Self_mail_sending" class="panel">
@@ -222,23 +317,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.epam.tests.TestCompareProductInformation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.epam.tests.TestCompareSorting</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">9198 ms</span>
+                <span class="method-start">8746 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">CompareProductInformation(Вентиляторы, 3.0)</span>
-                <span class="method-start">9231 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ComparePrices(Вентиляторы)</span>
+                <span class="method-start">8772 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">18358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CompareTitles(Вентиляторы)</span>
+                <span class="method-start">18421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47483 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">19576 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

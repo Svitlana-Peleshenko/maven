@@ -1,0 +1,10 @@
+<suite name="Self mail sending">
+<listeners>
+<listener class-name="com.epam.helpers.ScreenshotsForReporting" /> 
+</listeners>
+ <test name="TestCheckProducerFilter" enabled="true"> 
+  <classes>
+  <class name="com.epam.tests.TestCheckProducerFilter"></class>
+  </classes>
+ </test>
+</suite>

@@ -24,7 +24,6 @@ com\epam\components\Header.class
 com\epam\helpers\CheckFunctionsFilterHelper.class
 com\epam\helpers\CompareProductInformationHelper.class
 com\epam\data_readers\MailReader.class
-com\epam\tests\TestCompareProductInformation.class
 com\epam\tests\TestCompareSorting.class
 com\epam\tests\TestCheckFunctionsFilter.class
 com\epam\components\NavigateMenuProductInformation.class
