@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46236" started-at="2013-11-10T22:37:11Z" finished-at="2013-11-10T22:37:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46236" started-at="2013-11-10T22:37:11Z" finished-at="2013-11-10T22:37:58Z">
+      <class name="com.epam.tests.TestCheckPriceFilter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@7def534e]" name="setUp" is-config="true" duration-ms="8765" started-at="2013-11-11T02:37:11Z" finished-at="2013-11-11T02:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@7def534e]" name="setUpMethod" is-config="true" duration-ms="47" started-at="2013-11-11T02:37:21Z" finished-at="2013-11-11T02:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckPriceFilter(java.lang.String, java.lang.Double, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckPriceFilter@7def534e]" name="CheckPriceFilter" duration-ms="36946" started-at="2013-11-11T02:37:21Z" data-provider="baseDataProvider" finished-at="2013-11-11T02:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хлебопечи]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPriceFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@7def534e]" name="tearDown" is-config="true" duration-ms="355" started-at="2013-11-11T02:37:58Z" finished-at="2013-11-11T02:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
