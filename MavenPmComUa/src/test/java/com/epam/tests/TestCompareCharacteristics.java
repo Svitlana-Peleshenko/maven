@@ -16,7 +16,6 @@ import com.epam.components.NavigateMenu;
 import com.epam.components.NavigateMenuProductInformation;
 import com.epam.helpers.CompareCharacteristicsHelper;
 import com.epam.helpers.CompareHelper;
-import com.epam.helpers.CompareProductInformationHelper;
 import com.epam.helpers.GoToPageHelper;
 import com.epam.provider.TestDataProvider;
 
@@ -41,18 +40,10 @@ public class TestCompareCharacteristics extends BaseTest {
 		menu=PageFactory.initElements(driver, NavigateMenuProductInformation.class);
 		compareLine=PageFactory.initElements(driver, Header.class);
 	}
-	
-	@Test (dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
-	public void CompareProductInformation (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
-		openUrl();
-		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		CompareProductInformationHelper.CompareProductInformation(catalogComponent, table, counts, information, menu,compareLine);
-	}
 
-	@Test ( dependsOnMethods={"CompareProductInformation"},dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
+	@Test (dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
 	public void CheckEquality (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
 		openUrl();
-		
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CompareCharacteristicsHelper.CheckEquality( catalogComponent, table, counts);
 	
