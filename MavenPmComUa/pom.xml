@@ -29,7 +29,7 @@
 				<version>2.16</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testSuites/${SELECT_TEST}.xml</suiteXmlFile>
+						<suiteXmlFile>${SELECT_TEST}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
 						<property>

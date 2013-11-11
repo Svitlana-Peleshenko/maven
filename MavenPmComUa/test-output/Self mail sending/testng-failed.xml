@@ -4,17 +4,17 @@
   <listeners>
     <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
   </listeners>
-  <test name="TestCompareCharacteristics(failed)">
+  <test name="TestCompareSorting(failed)">
     <classes>
-      <class name="com.epam.tests.TestCompareCharacteristics">
+      <class name="com.epam.tests.TestCompareSorting">
         <methods>
+          <include name="CompareTitles" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="CheckEquality"/>
-          <include name="CompareProductInformation" invocation-numbers="0"/>
           <include name="setUpMethod"/>
+          <include name="tearDown"/>
+          <include name="ComparePrices" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.epam.tests.TestCompareCharacteristics -->
+      </class> <!-- com.epam.tests.TestCompareSorting -->
     </classes>
-  </test> <!-- TestCompareCharacteristics(failed) -->
+  </test> <!-- TestCompareSorting(failed) -->
 </suite> <!-- Failed suite [Self mail sending] -->
