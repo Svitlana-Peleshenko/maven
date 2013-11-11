@@ -1,4 +1,3 @@
-
 <suite name="Self mail sending">
 	<listeners>
 		<listener class-name="com.epam.helpers.ScreenshotsForReporting" />
