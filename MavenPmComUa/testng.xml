@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Self mail sending">
 <listeners>
-                <listener class-name="com.epam.helpers.ScreenshotsForReporting" />
-        </listeners>
+<listener class-name="com.epam.helpers.ScreenshotsForReporting" /> 
+</listeners>
 
  <test name="TestCompareProductInformation" enabled="true"> 
   <classes>
