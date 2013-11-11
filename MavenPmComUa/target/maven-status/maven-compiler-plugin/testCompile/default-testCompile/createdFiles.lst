@@ -8,7 +8,6 @@ com\epam\data_readers\FileRead.class
 com\epam\configuration\TestConfig.class
 com\epam\helpers\CheckProducerFilterHelper.class
 com\epam\tests\TestCheckPriceFilter.class
-com\epam\helpers\ScreeenshotsForReporting.class
 com\epam\tests\TestCompareCharacteristics.class
 com\epam\components\InformationAboutProduct.class
 com\epam\components\NavigateMenu.class
