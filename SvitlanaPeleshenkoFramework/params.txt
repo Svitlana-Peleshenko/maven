@@ -1,0 +1,4 @@
+driver=firefox
+server=http://pn.com.ua
+excelFilePath=TestData.xls
+propertiesFolderPath=properties/

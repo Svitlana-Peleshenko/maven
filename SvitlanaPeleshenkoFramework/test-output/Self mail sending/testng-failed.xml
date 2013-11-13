@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Self mail sending]">
+  <listeners>
+    <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
+  </listeners>
+  <test name="TestCompareProductCharacteristics(failed)">
+    <classes>
+      <class name="com.epam.tests.TestCompareProductCharacteristics">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="CheckProductEqualityInTable"/>
+          <include name="CompareProductInformation"/>
+        </methods>
+      </class> <!-- com.epam.tests.TestCompareProductCharacteristics -->
+    </classes>
+  </test> <!-- TestCompareProductCharacteristics(failed) -->
+</suite> <!-- Failed suite [Self mail sending] -->
