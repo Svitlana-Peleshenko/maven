@@ -15,7 +15,7 @@ import org.junit.runner.Runner;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.epam.data_readers.FileRead;
+import com.epam.data_readers.FileReader;
 
 
 public class TestConfig {
@@ -53,13 +53,13 @@ public class TestConfig {
 	
 	public static String getExcelFilePath() throws IOException {
 		
-		String  excelFilePath = FileRead.read("excelFilePath");
+		String  excelFilePath = FileReader.read("excelFilePath");
 		return excelFilePath;
 	}
 	
 	public static Capabilities getDriver() throws IOException {
 		
-		if(FileRead.read("driver")=="firefox")
+		if(FileReader.read("driver")=="firefox")
 		{
 			Capabilities driver = DesiredCapabilities.firefox();
 		 return driver;
@@ -70,12 +70,12 @@ public class TestConfig {
 	}
 
 	public static String getServer() throws IOException {
-		String  server = FileRead.read("server");
+		String  server = FileReader.read("server");
 		return server;
 	}
 	
 	public static String getPropertiesFolderPath() throws IOException {
-		String  propertiesFolderPath = FileRead.read("propertiesFolderPath");
+		String  propertiesFolderPath = FileReader.read("propertiesFolderPath");
 		return propertiesFolderPath;
 	}
 	

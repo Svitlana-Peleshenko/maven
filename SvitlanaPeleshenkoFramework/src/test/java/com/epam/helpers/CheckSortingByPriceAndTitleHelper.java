@@ -33,16 +33,18 @@ public class CheckSortingByPriceAndTitleHelper {
 	public static void CompareTitle(NavigateMenu menu, Catalog catalog,
 			WebDriver driver) throws InterruptedException {
 		menu.titleSortClick();
-		int lastPage = menu.getLastPage();
-		String bufSt = "0";
-		String currentTitle;
+		
 
 		do {
+			String bufSt = "0";
+			String currentTitle;
 			for (int j = 0; j < catalog.getItems().size(); j++) {
 				currentTitle = catalog.getTitle(j);
 				Assert.assertTrue(bufSt.compareToIgnoreCase(currentTitle) <= 0);
 				bufSt = currentTitle;
+				
 			}
+			menu.goToNextPage();
 		} while (driver.findElements(By.cssSelector(menu.NEXT)).size() != 0);
 
 	}

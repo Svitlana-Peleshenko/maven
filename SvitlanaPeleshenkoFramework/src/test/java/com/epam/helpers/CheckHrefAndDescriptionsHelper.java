@@ -19,7 +19,7 @@ import com.epam.components.NavigateMenu;
 import com.epam.components.NavigateMenuProductInformation;
 import com.epam.components.PriceList;
 
-public class TestCheckHrefAndDescriptionsHelper {
+public class CheckHrefAndDescriptionsHelper {
 
 //task 6
 	

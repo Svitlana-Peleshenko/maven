@@ -11,11 +11,11 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 
-public class ExcelRead {
+public class ExcelReader {
 
 	private  String filePath;
 
-	public ExcelRead(String filePath) {
+	public ExcelReader(String filePath) {
 		this.filePath = filePath;
 	}
 

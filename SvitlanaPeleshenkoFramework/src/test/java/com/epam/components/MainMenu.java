@@ -64,8 +64,7 @@ public class MainMenu {
 		if(getHousApl(i).compareToIgnoreCase(product)==0){
 		    getHousAllApl().get(i).click();
 		    return true;
-		}
-		
+		}	
 	}
 	return false;
 	

@@ -17,7 +17,7 @@ import org.openqa.selenium.support.FindBy;
 public class InformationAboutProduct {
 
 	public static final String CHARACTERISTICS_TITLES = ".row>span[class='pr']";
-	public static final String CHARACTERISTICS = ".row>span[class='val']";
+	public static final String CHARACTERISTICS_VALUE = ".row>span[class='val']";
 	public static final String PRODUCTION_CHARACTERISTICS = ".//*[@class='panel corner item-stats']/div[count(span) > 1]";
 
 	@FindBy(xpath = InformationAboutProduct.PRODUCTION_CHARACTERISTICS)
@@ -26,7 +26,7 @@ public class InformationAboutProduct {
 	@FindBy(css = InformationAboutProduct.CHARACTERISTICS_TITLES)
 	List<WebElement> titlesCharacteristics;
 
-	@FindBy(css = InformationAboutProduct.CHARACTERISTICS)
+	@FindBy(css = InformationAboutProduct.CHARACTERISTICS_VALUE)
 	static List<WebElement> characteristics;
 
 	public List<WebElement> getTitlesCharacteristics() {

@@ -15,9 +15,8 @@ import com.epam.components.Header;
 import com.epam.components.InformationAboutProduct;
 import com.epam.components.NavigateMenuProductInformation;
 
-public class TestCompareProductCharacteristicsHelper {
-	
-	
+public class CompareProductCharacteristicsHelper {
+
 	public static void CompareProductInformation(Catalog catalog,
 			ComparativeTable table, Double counts,
 			InformationAboutProduct information,
@@ -64,8 +63,8 @@ public class TestCompareProductCharacteristicsHelper {
 
 	}
 
-	public static void CheckEquality(Catalog catalog, ComparativeTable table,
-			Double counts) {
+	public static void CheckMarkingRows(Catalog catalog,
+			ComparativeTable table, Double counts) {
 
 		int count = counts.intValue();
 		// for (int i = 0; i < count; i++) {
@@ -78,18 +77,16 @@ public class TestCompareProductCharacteristicsHelper {
 			WebElement row = table.getCompareRow(i);
 			String cssClass = row.getAttribute("class");
 			if (cssClass.equals("different")) {
-				Assert.assertEquals(EqualsValue(row, count), false);
+				Assert.assertEquals(CompareColumnsValue(row, count), false);
 			} else {
-				Assert.assertEquals(EqualsValue(row, count), true);
+				Assert.assertEquals(CompareColumnsValue(row, count), true);
 			}
 
 		}
 
 	}
 
-	private static boolean EqualsValue(WebElement row, int count) {
-
-		// (".different>td:nth-child(2)")
+	private static boolean CompareColumnsValue(WebElement row, int count) {
 
 		String buf = row.findElement(By.xpath(".//td[2]")).getText();
 		for (int i = 1; i < count; i++) {
@@ -106,4 +103,3 @@ public class TestCompareProductCharacteristicsHelper {
 	}
 
 }
-

@@ -1,11 +1,11 @@
-package com.epam.data_readers;
+package com.epam.configuration;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class PropertiesReader {
+public class DataBaseConfig {
 	private static String url;
 	private static String name;
 	private static String password;
@@ -13,7 +13,7 @@ public class PropertiesReader {
 	private static String pathXml;
 	private static String pathExcel;
 
-	public PropertiesReader(String propertiesPath) throws IOException {
+	public DataBaseConfig(String propertiesPath) throws IOException {
 		FileInputStream fileToReadProperties = new FileInputStream(
 				propertiesPath);
 		Properties propertiesForDb = new Properties();
@@ -42,7 +42,7 @@ public class PropertiesReader {
 	}
 
 	public static void setPathFile(String pathFile) {
-		PropertiesReader.pathFile = pathFile;
+		DataBaseConfig.pathFile = pathFile;
 	}
 
 	public static String getPathXml() {
@@ -50,7 +50,7 @@ public class PropertiesReader {
 	}
 
 	public static void setPathXml(String pathXml) {
-		PropertiesReader.pathXml = pathXml;
+		DataBaseConfig.pathXml = pathXml;
 	}
 
 	public static String getPathExel() {
@@ -58,7 +58,7 @@ public class PropertiesReader {
 	}
 
 	public static void setPathExel(String pathExel) {
-		PropertiesReader.pathExcel = pathExel;
+		DataBaseConfig.pathExcel = pathExel;
 	}
 
 	public static String getUrl() {

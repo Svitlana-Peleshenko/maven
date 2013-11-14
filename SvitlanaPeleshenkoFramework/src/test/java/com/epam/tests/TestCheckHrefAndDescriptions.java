@@ -16,8 +16,8 @@ import com.epam.components.MainMenu;
 import com.epam.components.NavigateMenu;
 import com.epam.components.NavigateMenuProductInformation;
 import com.epam.components.PriceList;
-import com.epam.helpers.TestCompareProductCharacteristicsHelper;
-import com.epam.helpers.TestCheckHrefAndDescriptionsHelper;
+import com.epam.helpers.CompareProductCharacteristicsHelper;
+import com.epam.helpers.CheckHrefAndDescriptionsHelper;
 import com.epam.helpers.GoToPageHelper;
 import com.epam.provider.TestDataProvider;
 
@@ -51,7 +51,7 @@ public class TestCheckHrefAndDescriptions extends BaseTest {
 			throws FileNotFoundException, InterruptedException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		TestCheckHrefAndDescriptionsHelper.CheckHref(catalogComponent,navigateMenuComponent, header, priceList, counts);
+		CheckHrefAndDescriptionsHelper.CheckHref(catalogComponent,navigateMenuComponent, header, priceList, counts);
 
 	}
 	
@@ -60,7 +60,7 @@ public class TestCheckHrefAndDescriptions extends BaseTest {
 			throws FileNotFoundException, InterruptedException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		TestCheckHrefAndDescriptionsHelper.CheckDescriptions(catalogComponent, information, menu, counts);
+		CheckHrefAndDescriptionsHelper.CheckDescriptions(catalogComponent, information, menu, counts);
 
 	}
 

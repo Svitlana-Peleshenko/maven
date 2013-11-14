@@ -14,9 +14,9 @@ import com.epam.components.InformationAboutProduct;
 import com.epam.components.MainMenu;
 import com.epam.components.NavigateMenu;
 import com.epam.components.NavigateMenuProductInformation;
-import com.epam.helpers.TestCompareProductCharacteristicsHelper;
+import com.epam.helpers.CompareProductCharacteristicsHelper;
 import com.epam.helpers.CheckSortingByPriceAndTitleHelper;
-import com.epam.helpers.TestCheckHrefAndDescriptionsHelper;
+import com.epam.helpers.CheckHrefAndDescriptionsHelper;
 import com.epam.helpers.GoToPageHelper;
 import com.epam.provider.TestDataProvider;
 
@@ -45,14 +45,14 @@ public class TestCompareProductCharacteristics extends BaseTest {
 	public void CompareProductInformation (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		TestCompareProductCharacteristicsHelper.CompareProductInformation(catalogComponent, table, counts, information, menu,compareLine);
+		CompareProductCharacteristicsHelper.CompareProductInformation(catalogComponent, table, counts, information, menu,compareLine);
 	}
 
 	@Test (dependsOnMethods={"CompareProductInformation"},dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
 	public void CheckProductEqualityInTable (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		TestCompareProductCharacteristicsHelper.CheckEquality( catalogComponent, table, counts);
+		CompareProductCharacteristicsHelper.CheckMarkingRows( catalogComponent, table, counts);
 	
 	}
 

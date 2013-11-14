@@ -1,323 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
-    <line>
-      <![CDATA[Check entered   title of function in exel file.]]>
-    </line>
-    <line>
-      <![CDATA[Find the function which title equals entered function.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Product search with the specified function.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Title of function is correct.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through on all pages.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Check  that title of function contains in product description.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Loop through one page.<br>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31311" started-at="2013-11-13T08:56:16Z" finished-at="2013-11-13T08:56:47Z">
+  <suite name="Self mail sending" duration-ms="68732" started-at="2013-11-14T08:47:41Z" finished-at="2013-11-14T08:48:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31311" started-at="2013-11-13T08:56:16Z" finished-at="2013-11-13T08:56:47Z">
-      <class name="com.epam.tests.TestCheckFunctionsFilter">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCheckFunctionsFilter@16e0123]" name="setUp" is-config="true" duration-ms="9876" started-at="2013-11-13T10:56:16Z" finished-at="2013-11-13T10:56:26Z">
+    <test name="TestCheckHrefAndDescriptions" duration-ms="68732" started-at="2013-11-14T08:47:41Z" finished-at="2013-11-14T08:48:49Z">
+      <class name="com.epam.tests.TestCheckHrefAndDescriptions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="setUp" is-config="true" duration-ms="9021" started-at="2013-11-14T10:47:41Z" finished-at="2013-11-14T10:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckFunctionsFilter@16e0123]" name="setUpMethod" is-config="true" duration-ms="43" started-at="2013-11-13T10:56:26Z" finished-at="2013-11-13T10:56:26Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="setUpMethod" is-config="true" duration-ms="26" started-at="2013-11-14T10:47:50Z" finished-at="2013-11-14T10:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="CheckFunctionsFilter(java.lang.String, java.lang.String)[pri:0, instance:com.epam.tests.TestCheckFunctionsFilter@16e0123]" name="CheckFunctionsFilter" duration-ms="20741" started-at="2013-11-13T10:56:26Z" data-provider="baseDataProvider" finished-at="2013-11-13T10:56:47Z">
+        <test-method status="PASS" signature="CheckDescriptions(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="CheckDescriptions" duration-ms="29395" started-at="2013-11-14T10:47:50Z" data-provider="baseDataProvider" finished-at="2013-11-14T10:48:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Духовки]]>
+                <![CDATA[Хлебопечи]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Газовая]]>
+                <![CDATA[5.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Check entered   title of function in exel file.]]>
-            </line>
-            <line>
-              <![CDATA[Find the function which title equals entered function.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Product search with the specified function.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Title of function is correct.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through on all pages.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Check  that title of function contains in product description.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Loop through one page.<br>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- CheckFunctionsFilter -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCheckFunctionsFilter@16e0123]" name="tearDown" is-config="true" duration-ms="292" started-at="2013-11-13T10:56:47Z" finished-at="2013-11-13T10:56:47Z">
+        </test-method> <!-- CheckDescriptions -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="setUpMethod" is-config="true" duration-ms="4" started-at="2013-11-14T10:48:19Z" finished-at="2013-11-14T10:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckHref(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="CheckHref" duration-ms="22457" started-at="2013-11-14T10:48:19Z" data-provider="baseDataProvider" finished-at="2013-11-14T10:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хлебопечи]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHref -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="setUpMethod" is-config="true" duration-ms="3" started-at="2013-11-14T10:48:42Z" finished-at="2013-11-14T10:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckHref(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="CheckHref" duration-ms="7510" started-at="2013-11-14T10:48:42Z" data-provider="baseDataProvider" finished-at="2013-11-14T10:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вентиляторы]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHref -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCheckHrefAndDescriptions@1162ab9]" name="tearDown" is-config="true" duration-ms="348" started-at="2013-11-14T10:48:49Z" finished-at="2013-11-14T10:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.tests.TestCheckFunctionsFilter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.epam.tests.TestCheckHrefAndDescriptions -->
+    </test> <!-- TestCheckHrefAndDescriptions -->
+  </suite> <!-- Self mail sending -->
 </testng-results>

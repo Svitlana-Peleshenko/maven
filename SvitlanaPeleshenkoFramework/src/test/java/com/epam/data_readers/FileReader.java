@@ -10,11 +10,11 @@ import org.junit.runner.Runner;
 import org.openqa.selenium.Capabilities;
 
 
-public class FileRead {
+public class FileReader {
 
 	public static String read(String param) throws IOException {
 
-		FileInputStream fis = new FileInputStream("params.txt");
+		FileInputStream fis = new FileInputStream("configurations.txt");
 
 		Properties p = new Properties();
 		p.load(fis);

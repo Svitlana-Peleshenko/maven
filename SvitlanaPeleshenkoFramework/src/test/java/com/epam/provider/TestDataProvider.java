@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
 import com.epam.configuration.TestConfig;
-import com.epam.data_readers.ExcelRead;
+import com.epam.data_readers.ExcelReader;
 
 public class TestDataProvider {
 /*
@@ -34,7 +34,7 @@ public class TestDataProvider {
 	 public static Object[][] baseDataProvider(Method method) throws IOException {
 	  String fileName = getDataFileName(method);
 	  String sheetName = method.getName();
-	  ExcelRead read = new ExcelRead(fileName);
+	  ExcelReader read = new ExcelReader(fileName);
 	  return read.readExcel(sheetName);
 	 
 	 }
