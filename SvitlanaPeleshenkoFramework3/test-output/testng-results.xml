@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'maxPrice'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Validation sort by price when entered only max price.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'minPrice'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Validation sort by price when entered only min price.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'minPrice'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Validation sort by price when entered only min price.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'minPrice'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'maxPrice'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Validation sort by price when entered two prices.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+    <line>
+      <![CDATA[Click on link'next']]>
+    </line>
+  </reporter-output>
+  <suite name="reports" duration-ms="114036" started-at="2013-11-15T14:30:16Z" finished-at="2013-11-15T14:32:10Z">
+    <groups>
+    </groups>
+    <test name="TestCheckPriceFilter" duration-ms="114036" started-at="2013-11-15T14:30:16Z" finished-at="2013-11-15T14:32:10Z">
+      <class name="com.epam.tests.TestCheckPriceFilter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="setUp" is-config="true" duration-ms="8586" started-at="2013-11-15T16:30:16Z" finished-at="2013-11-15T16:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="setUpMethod" is-config="true" duration-ms="32" started-at="2013-11-15T16:30:25Z" finished-at="2013-11-15T16:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckPriceFilter(java.lang.String, java.lang.Double, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="CheckPriceFilter" duration-ms="25658" started-at="2013-11-15T16:30:25Z" data-provider="baseDataProvider" finished-at="2013-11-15T16:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хлебопечи]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'maxPrice'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Validation sort by price when entered only max price.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckPriceFilter -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="setUpMethod" is-config="true" duration-ms="3" started-at="2013-11-15T16:30:50Z" finished-at="2013-11-15T16:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckPriceFilter(java.lang.String, java.lang.Double, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="CheckPriceFilter" duration-ms="35260" started-at="2013-11-15T16:30:50Z" data-provider="baseDataProvider" finished-at="2013-11-15T16:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Микроволновки]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'minPrice'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Validation sort by price when entered only min price.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckPriceFilter -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="setUpMethod" is-config="true" duration-ms="2" started-at="2013-11-15T16:31:26Z" finished-at="2013-11-15T16:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckPriceFilter(java.lang.String, java.lang.Double, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="CheckPriceFilter" duration-ms="20606" started-at="2013-11-15T16:31:26Z" data-provider="baseDataProvider" finished-at="2013-11-15T16:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хлебопечи]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'minPrice'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Validation sort by price when entered only min price.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckPriceFilter -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="setUpMethod" is-config="true" duration-ms="2" started-at="2013-11-15T16:31:46Z" finished-at="2013-11-15T16:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckPriceFilter(java.lang.String, java.lang.Double, java.lang.Double)[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="CheckPriceFilter" duration-ms="23590" started-at="2013-11-15T16:31:46Z" data-provider="baseDataProvider" finished-at="2013-11-15T16:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хлебопечи]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'minPrice'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'maxPrice'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Validation sort by price when entered two prices.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+            <line>
+              <![CDATA[Click on link'next']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckPriceFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCheckPriceFilter@3492fc]" name="tearDown" is-config="true" duration-ms="299" started-at="2013-11-15T16:32:10Z" finished-at="2013-11-15T16:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
+    </test> <!-- TestCheckPriceFilter -->
+  </suite> <!-- reports -->
+</testng-results>
