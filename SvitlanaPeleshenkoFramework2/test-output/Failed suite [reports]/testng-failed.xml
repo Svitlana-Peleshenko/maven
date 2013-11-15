@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [reports]]">
+  <listeners>
+    <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
+  </listeners>
+  <test name="TestCheckFunctionsFilter(failed)(failed)">
+    <classes>
+      <class name="com.epam.tests.TestCheckFunctionsFilter">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpMethod"/>
+          <include name="CheckFunctionsFilter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.tests.TestCheckFunctionsFilter -->
+    </classes>
+  </test> <!-- TestCheckFunctionsFilter(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [reports]] -->
