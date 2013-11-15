@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -33,7 +34,7 @@ public class TestCheckPriceFilter extends BaseTest {
 
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void CheckPriceFilter(String productForSort,Double minPr, Double maxPr)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckPriceFilterHelper.CheckPriceFilter(navigateMenuComponent, catalogComponent, filterComponent, minPr, maxPr,driver);

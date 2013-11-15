@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -48,7 +49,7 @@ public class TestCheckHrefAndDescriptions extends BaseTest {
 
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void CheckHref(String productForSort, Double counts)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckHrefAndDescriptionsHelper.CheckHref(catalogComponent,navigateMenuComponent, header, priceList, counts);
@@ -57,7 +58,7 @@ public class TestCheckHrefAndDescriptions extends BaseTest {
 	
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void CheckDescriptions(String productForSort, Double counts)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckHrefAndDescriptionsHelper.CheckDescriptions(catalogComponent, information, menu, counts);

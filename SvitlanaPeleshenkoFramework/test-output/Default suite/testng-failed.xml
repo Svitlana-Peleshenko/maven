@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.epam.tests.TestCheckPriceFilter">
+      <class name="com.epam.tests.TestCheckFunctionsFilter">
         <methods>
-          <include name="CheckPriceFilter"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUpMethod"/>
+          <include name="CheckFunctionsFilter" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
+      </class> <!-- com.epam.tests.TestCheckFunctionsFilter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

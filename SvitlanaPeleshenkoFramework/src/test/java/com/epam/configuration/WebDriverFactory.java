@@ -1,9 +1,14 @@
 package com.epam.configuration;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -122,4 +127,14 @@ public class WebDriverFactory {
       }
     });
   }
+
+
+	 public static String takeScreen() throws IOException{
+			
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			  String name = "screen number_"+ System.currentTimeMillis() + ".png";
+			  FileUtils.copyFile(scrFile, new File("target/surefire-reports/html/screenshots" + name));
+			  return name;
+			 }
 }
+

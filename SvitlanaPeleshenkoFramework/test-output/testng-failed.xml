@@ -1,93 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Self mail sending]">
+<suite name="Failed suite [reports]">
   <listeners>
     <listener class-name="com.epam.helpers.ScreenshotsForReporting"/>
   </listeners>
-  <test name="TestCompareProductCharacteristics(failed)">
+  <test name="TestCheckFunctionsFilter(failed)">
     <classes>
-      <class name="com.epam.tests.TestCheckProducerFilter">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckProducerFilter -->
-      <class name="com.epam.tests.TestCheckSortingByPriceAndTitle">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckSortingByPriceAndTitle -->
-      <class name="com.epam.tests.TestCheckPriceFilter">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
       <class name="com.epam.tests.TestCheckFunctionsFilter">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="setUpMethod"/>
+          <include name="CheckFunctionsFilter" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.epam.tests.TestCheckFunctionsFilter -->
-      <class name="com.epam.tests.TestCheckHrefAndDescriptions">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckHrefAndDescriptions -->
-      <class name="com.epam.tests.TestCompareProductCharacteristics">
-        <methods>
-          <include name="setUpMethod"/>
-          <include name="setUp"/>
-          <include name="CheckProductEqualityInTable" invocation-numbers="0"/>
-          <include name="CompareProductInformation"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareProductCharacteristics -->
     </classes>
-  </test> <!-- TestCompareProductCharacteristics(failed) -->
-  <test name="TestCheckHrefAndDescriptions(failed)">
-    <classes>
-      <class name="com.epam.tests.TestCheckProducerFilter">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckProducerFilter -->
-      <class name="com.epam.tests.TestCheckSortingByPriceAndTitle">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckSortingByPriceAndTitle -->
-      <class name="com.epam.tests.TestCheckPriceFilter">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckPriceFilter -->
-      <class name="com.epam.tests.TestCheckFunctionsFilter">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckFunctionsFilter -->
-      <class name="com.epam.tests.TestCheckHrefAndDescriptions">
-        <methods>
-          <include name="setUp"/>
-          <include name="CheckDescriptions" invocation-numbers="0"/>
-          <include name="CheckHref" invocation-numbers="0"/>
-          <include name="setUpMethod"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCheckHrefAndDescriptions -->
-      <class name="com.epam.tests.TestCompareProductCharacteristics">
-        <methods>
-          <include name="setUpMethod"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.tests.TestCompareProductCharacteristics -->
-    </classes>
-  </test> <!-- TestCheckHrefAndDescriptions(failed) -->
-</suite> <!-- Failed suite [Self mail sending] -->
+  </test> <!-- TestCheckFunctionsFilter(failed) -->
+</suite> <!-- Failed suite [reports] -->

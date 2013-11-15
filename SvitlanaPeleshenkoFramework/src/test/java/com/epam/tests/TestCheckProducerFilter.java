@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -34,7 +35,7 @@ public class TestCheckProducerFilter extends BaseTest {
 
 	
 	@Test (dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
-	public void CheckProducerFilter (String productForSort) throws FileNotFoundException, InterruptedException  {
+	public void CheckProducerFilter (String productForSort) throws InterruptedException, IOException  {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckProducerFilterHelper.CheckProducerFilter( navigateMenuComponent,catalogComponent,filterComponent, driver);

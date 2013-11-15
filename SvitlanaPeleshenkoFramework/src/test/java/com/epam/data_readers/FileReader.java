@@ -1,14 +1,10 @@
 package com.epam.data_readers;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.List;
 import java.util.Properties;
 
-import org.junit.runner.Runner;
-import org.openqa.selenium.Capabilities;
-
+import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument.Config;
 
 public class FileReader {
 
@@ -37,12 +33,3 @@ public class FileReader {
 	}
 
 }
-
-	
-
-
-	
-	
-	
-	
-

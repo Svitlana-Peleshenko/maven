@@ -1,11 +1,8 @@
 package com.epam.helpers;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
 
+import java.util.HashMap;
+import java.util.Map;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -44,17 +41,11 @@ public class CompareProductCharacteristicsHelper {
 		compareLine.goToCompareTable();
 		for (String title : informationAboutProduct.keySet()) {
 			for (int k = 0; k < table.getCompareRows().size(); k++) {
-				String titleFromComTable = table.getCompareRow(k)
-						.findElement(By.xpath(".//td[1]")).getText();
-
+				String titleFromComTable = table.getTitleFromComTable(k);
 				if (titleFromComTable.equals(title)) {
 					String val = informationAboutProduct.get(title);
-					String valFromComTable = table
-							.getCompareRow(k)
-							.findElement(
-									By.xpath(".//td[" + (1 + numElement) + "]"))
-							.getText();
-					Assert.assertTrue(val.compareToIgnoreCase(valFromComTable) == 0);
+					String valFromComColumn = table.getValueFromColumn(k, numElement);
+					Assert.assertTrue(val.compareToIgnoreCase(valFromComColumn) == 0);
 				}
 
 			}
@@ -67,35 +58,32 @@ public class CompareProductCharacteristicsHelper {
 			ComparativeTable table, Double counts) {
 
 		int count = counts.intValue();
-		// for (int i = 0; i < count; i++) {
-		// catalog.AddToCompare().get(i).click();
-		// }
-		// Click "compare"
 		catalog.getCompareButtons().get(count).click();
-
 		for (int i = 0; i < table.getCompareRows().size(); i++) {
 			WebElement row = table.getCompareRow(i);
 			String cssClass = row.getAttribute("class");
 			if (cssClass.equals("different")) {
-				Assert.assertEquals(CompareColumnsValue(row, count), false);
+				Assert.assertEquals(CompareColumnsValue(row, count, table,i), false);
 			} else {
-				Assert.assertEquals(CompareColumnsValue(row, count), true);
+				Assert.assertEquals(CompareColumnsValue(row, count, table,i), true);
 			}
 
 		}
 
 	}
 
-	private static boolean CompareColumnsValue(WebElement row, int count) {
-
-		String buf = row.findElement(By.xpath(".//td[2]")).getText();
-		for (int i = 1; i < count; i++) {
-			String value = row.findElement(By.xpath(".//td[" + (2 + i) + "]"))
-					.getText();
-			if (!buf.equals(value)) {
+	private static boolean CompareColumnsValue(WebElement row, int count,ComparativeTable table,int i) {
+		
+       
+		String firstValue = table.getValueFromComTable(i);
+		for (int j =2; j < count+1; j++) {
+			String value =table.getValueFromColumn(i, j);
+					//row.findElement(By.xpath(".//td[" + (2 + j) + "]")).getText();
+			System.out.println(value);
+			if (!firstValue.equals(value)) {
 				return false;
 
-			} else if (buf.equals(value))
+			} else if (firstValue.equals(value))
 				return true;
 
 		}

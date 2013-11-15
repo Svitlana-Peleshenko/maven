@@ -17,10 +17,9 @@ public class CheckProducerFilterHelper {
 			Filter filter,WebDriver driver) {
 		filter.ClickShowcCommonProducer();
 
-	//	int lastPage = menu.getLastPage();
 		do{
 			for (int i = 0; i < catalog.getTitles().size(); i++) {
-				String buf = catalog.getTitles().get(i).getText();
+				String buf = catalog.getTitle(i);   // getTitles().get(i).getText();
 				Assert.assertEquals(CheckAccordanceProducer(buf, filter), true);
 			}
 			menu.goToNextPage();

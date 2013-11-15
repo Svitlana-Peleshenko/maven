@@ -22,8 +22,8 @@ public class CheckFunctionsFilterHelper {
 		}
 
 		else {
+			Reporter.log("Title of function is correct.<br>");
 			do {
-				Reporter.log("Title of function is correct.<br>");
 				int i = 0;
 				Reporter.log("Loop through on all pages.<br>");
 				for (int j = 0; j < catalog.getDescriptions().size(); j++) {

@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +38,7 @@ public class TestCheckSortingByPriceAndTitle extends BaseTest {
 
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void ComparePrices(String productForSort)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckSortingByPriceAndTitleHelper.ComparePrice(navigateMenuComponent, catalogComponent,driver);
@@ -45,7 +46,7 @@ public class TestCheckSortingByPriceAndTitle extends BaseTest {
 
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void CompareTitles(String productForSort)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckSortingByPriceAndTitleHelper.CompareTitle(navigateMenuComponent, catalogComponent,driver);

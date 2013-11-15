@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +42,7 @@ public class TestCheckFunctionsFilter extends BaseTest {
 
 	@Test(dataProvider = "baseDataProvider", dataProviderClass = TestDataProvider.class)
 	public void CheckFunctionsFilter(String productForSort,String function)
-			throws FileNotFoundException, InterruptedException {
+			throws InterruptedException, IOException {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CheckFunctionsFilterHelper.CheckFunctionsFilter(navigateMenuComponent,catalogComponent,filterComponent, function,driver);

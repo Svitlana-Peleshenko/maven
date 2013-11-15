@@ -1,6 +1,7 @@
 package com.epam.tests;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
@@ -42,14 +43,14 @@ public class TestCompareProductCharacteristics extends BaseTest {
 		compareLine=PageFactory.initElements(driver, Header.class);
 	}
 	@Test (dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
-	public void CompareProductInformation (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
+	public void CompareProductInformation (String productForSort,Double counts) throws InterruptedException, IOException  {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CompareProductCharacteristicsHelper.CompareProductInformation(catalogComponent, table, counts, information, menu,compareLine);
 	}
 
 	@Test (dependsOnMethods={"CompareProductInformation"},dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
-	public void CheckProductEqualityInTable (String productForSort,Double counts) throws FileNotFoundException, InterruptedException  {
+	public void CheckProductEqualityInTable (String productForSort,Double counts) throws InterruptedException, IOException  {
 		openUrl();
 		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
 		CompareProductCharacteristicsHelper.CheckMarkingRows( catalogComponent, table, counts);

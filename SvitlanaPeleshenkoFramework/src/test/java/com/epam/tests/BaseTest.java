@@ -1,32 +1,29 @@
 package com.epam.tests;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.BeforeClass;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.Reporter;
 import com.epam.configuration.TestConfig;
 import com.epam.configuration.WebDriverFactory;
-import com.epam.data_readers.MailReader;
-
+import com.epam.helpers.ScreenshotsForReporting;
 
 
 public class BaseTest {
 
 	protected WebDriver driver;
-	String URL="http://pn.com.ua";
 
 	@BeforeTest
 	public void setUp() throws Exception {
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setBrowserName(System.getProperty("webdriver.browser", "firefox"));
+	    String titleDriver=TestConfig.getDriver();
+		cap.setBrowserName(System.getProperty("webdriver.browser",titleDriver ));
 		driver = WebDriverFactory.getDriver(cap);
+		ScreenshotsForReporting.setDriver(driver);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 	}
@@ -34,13 +31,12 @@ public class BaseTest {
 	@AfterSuite
 	public void tearDown() throws Exception {
 		
-		//MailReader.deleteFile(TestConfig.getMailFolderPath());		
 		driver.quit();
 	}
 
-	
-	public void openUrl(){
+	public void openUrl() throws IOException {
+		String URL = TestConfig.getServer();
 		driver.get(URL);
 	}
-	
+
 }
