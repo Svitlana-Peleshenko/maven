@@ -51,12 +51,4 @@ public class TestCompareProductCharacteristicsInDifferentSections extends BaseTe
 		CompareProductCharacteristicsInDifferentSectionsHelper.CompareProductInformation(catalogComponent, table, counts, information, menu,compareLine);
 	}
 
-	@Test (dependsOnMethods={"CompareProductInformation"},dataProvider="baseDataProvider" , dataProviderClass = TestDataProvider.class)
-	public void CheckProductEqualityInTable (String productForSort,Double counts) throws InterruptedException, IOException, SkipPageException  {
-		openUrl();
-		GoToPageHelper.GoToPages(productForSort, mainMenuComponent);
-		CompareProductCharacteristicsInDifferentSectionsHelper.CheckMarkingRows( catalogComponent, table, counts);
-	
-	}
-
 }
