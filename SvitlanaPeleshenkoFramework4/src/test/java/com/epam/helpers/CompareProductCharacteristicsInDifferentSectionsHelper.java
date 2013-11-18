@@ -61,8 +61,8 @@ public class CompareProductCharacteristicsInDifferentSectionsHelper {
 	public static void CheckMarkingRows(Catalog catalog,
 			ComparativeTable table, Double counts) {
 		int count = counts.intValue();
-				for (int k = 0; k < count; k++) {
-		catalog.AddToCompare(k);}
+				//for (int k = 0; k < count; k++) {
+		//catalog.AddToCompare(k);}
 		catalog.getCompareButtons().get(count).click();
 		Reporter.log("Check correct marking of rows in comparative table.<br>");
 		for (int i = 0; i < table.getCompareRows().size(); i++) {
