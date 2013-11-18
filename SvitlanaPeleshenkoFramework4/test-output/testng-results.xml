@@ -1,0 +1,4283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check match the  product description in 'Catalog' and 'InformationAboutProduct' sections.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Add product to compare.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on title of product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'compareLine'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Add product to compare.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on title of product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'compareLine'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Add product to compare.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on title of product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'compareLine'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check match the  product description in 'Catalog' and 'InformationAboutProduct' sections.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Add product to compare.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on title of product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'compareLine'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Add product to compare.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on title of product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'compareLine'.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product title from comparative table .<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check correct marking of rows in comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find the function which title equals entered product.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on product link.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Check correct marking of rows in comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from comparative table.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product value from specified column.<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="reports" duration-ms="75508" started-at="2013-11-15T16:20:51Z" finished-at="2013-11-15T16:22:07Z">
+    <groups>
+    </groups>
+    <test name="TestCompareProductCharacteristics" duration-ms="75508" started-at="2013-11-15T16:20:51Z" finished-at="2013-11-15T16:22:07Z">
+      <class name="com.epam.tests.TestCompareProductCharacteristics">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="setUp" is-config="true" duration-ms="6620" started-at="2013-11-15T18:20:51Z" finished-at="2013-11-15T18:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="setUpMethod" is-config="true" duration-ms="86" started-at="2013-11-15T18:20:58Z" finished-at="2013-11-15T18:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CompareProductInformation(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="CompareProductInformation" duration-ms="32358" started-at="2013-11-15T18:20:58Z" data-provider="baseDataProvider" finished-at="2013-11-15T18:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вентиляторы]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check match the  product description in 'Catalog' and 'InformationAboutProduct' sections.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Add product to compare.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on title of product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'compareLine'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Add product to compare.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on title of product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'compareLine'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Add product to compare.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on title of product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'compareLine'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompareProductInformation -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="setUpMethod" is-config="true" duration-ms="3" started-at="2013-11-15T18:21:31Z" finished-at="2013-11-15T18:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CompareProductInformation(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="CompareProductInformation" duration-ms="26799" started-at="2013-11-15T18:21:31Z" data-provider="baseDataProvider" finished-at="2013-11-15T18:21:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Микроволновки]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check match the  product description in 'Catalog' and 'InformationAboutProduct' sections.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Add product to compare.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on title of product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'compareLine'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Add product to compare.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on title of product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get characteristics of product and save them in 'map' '.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'compareLine'.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product title from comparative table .<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on link 'pageBreadcrumbs' for go to catalog.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompareProductInformation -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="setUpMethod" is-config="true" duration-ms="2" started-at="2013-11-15T18:21:57Z" finished-at="2013-11-15T18:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckProductEqualityInTable(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="CheckProductEqualityInTable" duration-ms="4910" started-at="2013-11-15T18:21:57Z" data-provider="baseDataProvider" depends-on-methods="com.epam.tests.TestCompareProductCharacteristics.CompareProductInformation" finished-at="2013-11-15T18:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вентиляторы]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check correct marking of rows in comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckProductEqualityInTable -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="setUpMethod" is-config="true" duration-ms="2" started-at="2013-11-15T18:22:02Z" finished-at="2013-11-15T18:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="CheckProductEqualityInTable(java.lang.String, java.lang.Double)[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="CheckProductEqualityInTable" duration-ms="4480" started-at="2013-11-15T18:22:02Z" data-provider="baseDataProvider" depends-on-methods="com.epam.tests.TestCompareProductCharacteristics.CompareProductInformation" finished-at="2013-11-15T18:22:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Микроволновки]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Find the function which title equals entered product.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on product link.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Check correct marking of rows in comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from comparative table.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product value from specified column.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckProductEqualityInTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.tests.TestCompareProductCharacteristics@10a3ffc]" name="tearDown" is-config="true" duration-ms="288" started-at="2013-11-15T18:22:07Z" finished-at="2013-11-15T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.tests.TestCompareProductCharacteristics -->
+    </test> <!-- TestCompareProductCharacteristics -->
+  </suite> <!-- reports -->
+</testng-results>

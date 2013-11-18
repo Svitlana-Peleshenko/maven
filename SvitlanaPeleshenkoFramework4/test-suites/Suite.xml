@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="reports">
+<listeners>
+<listener class-name="com.epam.helpers.ScreenshotsForReporting" /> 
+</listeners>
+
+ <test name="TestCheckSortingByPriceAndTitle" enabled="true"> 
+  <classes>
+    <class name="com.epam.tests.TestCheckSortingProductsByPriceAndTitle"></class>
+  </classes>
+ </test>
+ 
+ <test name="TestCompareProductCharacteristics" enabled="true"> 
+  <classes>
+   <class name="com.epam.tests.TestCheckExistenceAllProducersInFilter"></class>
+  </classes>
+ </test>
+ 
+ <test name="TestCheckHrefAndDescriptions" enabled="true"> 
+  <classes>
+   <class name="com.epam.tests.TestCheckProductHrefAndDescriptionsInDifferentSections"></class>
+  </classes>
+ </test>
+ 
+ <test name="TestCheckProducerFilter" enabled="true"> 
+  <classes>
+  <class name="com.epam.tests.TestCompareProductCharacteristicsInDifferentSections"></class>
+  </classes>
+ </test>
+ 
+ <test name="TestCheckPriceFilter" enabled="true"> 
+  <classes>
+     <class name="com.epam.tests.TestCheckPriceFilter"></class>
+  </classes>
+ </test>
+ 
+ <test name="TestCheckFunctionsFilter" enabled="true"> 
+  <classes>
+ <class name="com.epam.tests.TestCheckExistenceSelectedFunctionInProductDescription"></class>
+  </classes>
+ </test> 
+</suite>
