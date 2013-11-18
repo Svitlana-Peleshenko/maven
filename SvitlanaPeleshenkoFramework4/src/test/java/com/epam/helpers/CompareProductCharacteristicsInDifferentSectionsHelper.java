@@ -62,8 +62,8 @@ public class CompareProductCharacteristicsInDifferentSectionsHelper {
 			ComparativeTable table, Double counts) {
 		int count = counts.intValue();
 				for (int k = 0; k < count; k++) {
-		catalog.AddToCompare(k);
-		catalog.getCompareButtons().get(count).click();}
+		catalog.AddToCompare(k);}
+		catalog.getCompareButtons().get(count).click();
 		Reporter.log("Check correct marking of rows in comparative table.<br>");
 		for (int i = 0; i < table.getCompareRows().size(); i++) {
 			WebElement row = table.getCompareRow(i);
